@@ -7427,3 +7427,9 @@ z-index:1;
 .btn-float:hover::before{
   opacity: 1;
 }
+
+a.btn-float--no-fixed{
+  position: relative !important;
+      bottom: auto;
+      right: auto;
+  }
