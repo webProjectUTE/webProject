@@ -7433,3 +7433,51 @@ a.btn-float--no-fixed{
       bottom: auto;
       right: auto;
   }
+
+  .text-color:hover{
+    transition: 0.5s;
+    animation: textcolor 10s linear infinite;
+    text-decoration: none;
+}
+
+@keyframes textcolor {
+    0%{
+        color: #fb0094;
+    }
+    10%{
+        color: #00f;
+    }
+    20%{
+        color: #0f0;
+    }
+    30%{
+        color: #ff0;
+    }
+    40%{
+        color: #f00;
+    }
+    50%{
+        color: #fb0094;
+    }
+    60%{
+        color: #00f;
+    }
+    70%{
+        color: #0f0;
+    }
+    80%{
+        color: #ff0;
+    }
+    90%{
+        color: #f00;
+    }
+    100%{
+        color: #8b4b71;
+    }
+}
+
+.text-color{
+  margin: 0 16px;
+  font-weight: 600;
+  
+}
