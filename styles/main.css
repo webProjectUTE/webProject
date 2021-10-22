@@ -7882,3 +7882,8 @@ a.btn-float--no-fixed {
     margin: 0 16px;
     font-weight: 600;
 }
+
+.stylefigcation {
+    display: flex!important;
+    align-items: center!important;
+}
